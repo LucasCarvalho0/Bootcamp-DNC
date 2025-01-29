@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html cl[xscdscdc] lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootcamp - DNC</title>
+  </head>
+  <body>
+    <nav id="menu-pricipal">
+      <div id="Menu">
+        <a href="">Home</a>
+        <a href="">Ultimas Edições</a>
+        <a href="">Requisitos para Participar</a>
+      </div>
+      <button>Login</button>
+    </nav>
+
+    <section>
+      <header>
+        <h1>BOOTCAMP DNC</h1>
+
+        <h2>
+          Esse será um evento exclusivo para todos os alunos <br />
+          da <b>DNC</b>, que querem
+          <span class="invert">acelerar a carreira</span> com uma <br />
+          semana intensiva de conteúdo de mercado entre <br />
+          <span class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</span>
+        </h2>
+      </header>
+
+      <form>
+        <!--formulario nome-->
+        <div class="form-gurpo">
+          <label>Nome:</label>
+          <input type="text" name="nome" placeholder="Insira seu nome aqui" />
+        </div>
+
+        <!--formulario sobrenome-->
+        <div class="form-gurpo">
+          <label>Sobrenome:</label>
+          <input
+            type="text"
+            name="nome"
+            placeholder="Insira seu sobrenome aqui"
+          />
+        </div>
+
+        <!--formulario Área de Interesse-->
+        <div class="form-gurpo">
+          <label>Área de Interesse:</label>
+          <div class="checkbox-itens">
+            <input type="checkbox" name="area" value="front-end" />
+            <label>Front-End</label>
+            <input type="checkbox" name="area" value="back-end" />
+            <label>Back-End</label>
+            <input type="checkbox" name="area" value="Banco de Dados" />
+            <label>Banco de Dados</label>
+          </div>
+        </div>
+
+        <!--formulario E-mail-->
+        <div class="form-gurpo">
+          <label>E-mail:</label>
+          <input
+            type="email"
+            name="nome"
+            placeholder="Insira seu e-mail aqui"
+          />
+        </div>
+
+        <!--formulario Telefone-->
+        <div class="form-gurpo">
+          <label>Telefone:</label>
+          <input type="text" name="nome" placeholder="(99) 9999-9999" />
+        </div>
+
+        <!--formulario mensagem criativa-->
+        <div class="form-gurpo">
+          <label>Insira uma frase criativa aqui:</label>
+          <input
+            type="text"
+            name="nome"
+            placeholder="Qual frase criativa você gostaria de falar? :)"
+          />
+        </div>
+
+        <!--botão formulario-->
+        <input type="submit" value="inscreva-se" />
+      </form>
+    </section>
+  </body>
+</html>
