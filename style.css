@@ -11,6 +11,7 @@
 }
 
 body {
+  max-width: 100%;
   background: linear-gradient(
       180deg,
       rgba(12, 112, 242, 0.5) 19.91%,
@@ -153,4 +154,91 @@ input[type="submit"] {
   width: 100%;
   cursor: pointer;
   margin-top: 100px;
+}
+
+/* Rodapé */
+
+footer {
+  width: 100%;
+  background-color: var(--azul-dnc);
+}
+
+footer .lina1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer h5 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  background-color: var(--preto-dnc);
+  border-radius: 5px;
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 30px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+footer ul li {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 20px 0px 20px 0px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover {
+  color: var(--cinza-dnc);
+}
+
+footer .endereco {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  width: 27%;
+}
+
+footer .lina2 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+footer .lina2 a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+footer .lina2 a:first-child {
+  border-right: 2.8px solid white;
+}
+
+footer .lina2 a:hover {
+  color: var(--cinza-dnc);
 }
